@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_x265_encoder", "simplest_x265_encoder\simplest_x265_encoder.vcxproj", "{CE1F304D-5021-4020-B174-AD597B191BF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_vpx_encoder", "simplest_vpx_encoder\simplest_vpx_encoder.vcxproj", "{41EBD5BD-B383-48B1-A604-9077929FB756}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_x264_encoder", "simplest_x264_encoder\simplest_x264_encoder.vcxproj", "{2790281D-4B63-4073-A8F6-96384D8318E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE1F304D-5021-4020-B174-AD597B191BF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE1F304D-5021-4020-B174-AD597B191BF1}.Debug|Win32.Build.0 = Debug|Win32
+		{CE1F304D-5021-4020-B174-AD597B191BF1}.Release|Win32.ActiveCfg = Release|Win32
+		{CE1F304D-5021-4020-B174-AD597B191BF1}.Release|Win32.Build.0 = Release|Win32
+		{41EBD5BD-B383-48B1-A604-9077929FB756}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41EBD5BD-B383-48B1-A604-9077929FB756}.Debug|Win32.Build.0 = Debug|Win32
+		{41EBD5BD-B383-48B1-A604-9077929FB756}.Release|Win32.ActiveCfg = Release|Win32
+		{41EBD5BD-B383-48B1-A604-9077929FB756}.Release|Win32.Build.0 = Release|Win32
+		{2790281D-4B63-4073-A8F6-96384D8318E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2790281D-4B63-4073-A8F6-96384D8318E4}.Debug|Win32.Build.0 = Debug|Win32
+		{2790281D-4B63-4073-A8F6-96384D8318E4}.Release|Win32.ActiveCfg = Release|Win32
+		{2790281D-4B63-4073-A8F6-96384D8318E4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+/**
+ * 如何获取源代码
+ * How to get source code?
+ *
+ * 雷霄骅 Lei Xiaohua
+ * leixiaohua1020@126.com
+ * 中国传媒大学/数字电视技术
+ * Communication University of China / Digital TV Technology
+ * http://blog.csdn.net/leixiaohua1020
+ *
+ */
+ 
+x264
+http://www.videolan.org/developers/x264.html
+
+The latest x264 source code:
+git clone git://git.videolan.org/x264.git
+
+Steps:
+1.Download MinGW and 
+2.type "./configure"
+3.type "make"
+=======================================================
+x265
+http://www.videolan.org/developers/x265.html
+The latest x265 source code:
+hg clone http://hg.videolan.org/x265
+
+Tools needed:
+CMake 2.8.8 or later:  http://www.cmake.org/cmake/resources/software.html
+Yasm 1.2.0 or later: http://www.tortall.net/projects/yasm/releases
+
+Steps:
+1.run make-solutions.bat in the build\ folder that corresponds to your favorite
+compiler, configure your build options, click 'configure', click 'generate'.Y
+ou will be rewarded with an x265.sln file.
+2.Use VC++ to build the Solution.
+
+=======================================================
+vpx
+http://www.webmproject.org/
+The latest vpx source code:
+git clone https://chromium.googlesource.com/webm/libvpx
+there is a mirror:
+git clone https://github.com/webmproject/libvpx
