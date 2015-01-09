@@ -37,7 +37,6 @@ int main(int argc, char** argv){
 	x265_nal *pNals=NULL;
 	uint32_t iNal=0;
 
-
 	x265_param* pParam=NULL;
 	x265_encoder* pHandle=NULL;
 	x265_picture *pPic_in=NULL;
@@ -71,7 +70,6 @@ int main(int argc, char** argv){
 		printf("x265_encoder_open err\n");
 		return 0;
 	}
-
 	y_size = pParam->sourceWidth * pParam->sourceHeight;
 
 	pPic_in = x265_picture_alloc();
@@ -133,7 +131,6 @@ int main(int argc, char** argv){
 		}
 
 		ret=x265_encoder_encode(pHandle,&pNals,&iNal,pPic_in,NULL);	
-
 		printf("Succeed encode %5d frames\n",i);
 
 		for(j=0;j<iNal;j++){
